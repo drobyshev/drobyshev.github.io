@@ -1,0 +1,53 @@
+h1 {
+    color: white;
+    font-size: 60px;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}
+
+.container footer {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.container .list-inline {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.btn-social {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 90px;
+}
+
+.btn-outline {
+    color: white;
+    font-size: 40px;
+    border: solid 2px white;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline.active {
+    color: orange;
+    border: solid 2px orange;
+}
