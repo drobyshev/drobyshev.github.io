@@ -3,17 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <title>Hi, Bro!</title>
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="vendor/particles/css/style.css">
+        <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div id="particles-js">
+            <div class="container body-content">
+                <h1>Hi, Bro!</h1>
+                <ul class="list-inline">
+                    <li>
+                        <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
+                    </li>
+                </ul>
+                <footer>
+                    <p>Andrey Drobyshev &copy; 2017</p>
+                </footer>
+            </div>
         </div>
         <script src="vendor/particles/js/particles.min.js"></script>
         <script src="vendor/particles/js/config.js"></script>
-        <script>
-            window.onload = function() { document.body.className = ''; }
-            window.ontouchmove = function() { return false; }
-            window.onorientationchange = function() { document.body.scrollTop = 0; }
-        </script>
     </body>
 </html>
