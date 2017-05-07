@@ -3,30 +3,41 @@
     <head>
         <meta charset="UTF-8">
         <title>Hi, Bro!</title>
-        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="vendor/particles/css/style.css">
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">>
         <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     </head>
     <body>
         <div id="particles-js">
             <div class="container body-content">
+                <h1 class="text-center">Hi, Bro!</h1>
                 <ul class="list-inline">
-                	<h1 class="text-center">Hi, Bro!</h1>
                     <li>
-                        <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                        <a href="https://github.com/drobyshev" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="GitHub">
+                        	<i class="fa fa-fw fa-github"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                        <a href="https://vk.com/andrey.drobyshev" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="VKontakte">
+                        	<i class="fa fa-fw fa-vk"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/andrey.drobyshev" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Facebook">
+                        	<i class="fa fa-fw fa fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                        <a href="https://t.me/AndreyDrobyshev" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Telegram">
+                        	<i class="fa fa-fw fa fa-telegram"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
+                        <a href="mailto:andrey.drobyschev@gmail.com" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Email">
+                        	<i class="fa fa-fw fa-envelope"></i>
+                        </a>
                     </li>
                 </ul>
                 <footer>
@@ -34,7 +45,12 @@
                 </footer>
             </div>
         </div>
-        <script src="vendor/particles/js/particles.min.js"></script>
-        <script src="vendor/particles/js/config.js"></script>
+        <script>
+			$(document).ready(function() {
+			    $('[data-toggle="tooltip"]').tooltip();   
+			});
+		</script>
+        <script src="vendor/particles/particles.min.js"></script>
+        <script src="vendor/particles/config.js"></script>
     </body>
 </html>
