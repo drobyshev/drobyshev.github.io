@@ -1,5 +1,5 @@
 # My personal site
-My personal web page with links to my profiles.
+My personal web site with links to my profiles.
 
 ## Libraries and frameworks
 * [Bootstrap](http://getbootstrap.com/)
@@ -8,4 +8,4 @@ My personal web page with links to my profiles.
 * [particles.js](http://vincentgarreau.com/particles.js/)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/drobyshev/drobyshev.github.io/blob/master/LICENSE) file for details
