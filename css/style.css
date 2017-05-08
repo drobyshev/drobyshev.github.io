@@ -1,9 +1,3 @@
-h1 {
-    color: white;
-    font-size: 60px;
-    position: relative;
-}
-
 body {
     margin: 0;
     font:normal 75% Arial, Helvetica, sans-serif;
@@ -12,6 +6,19 @@ body {
 canvas {
     display: block;
     vertical-align: bottom;
+}
+
+ul {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 #particles-js {
@@ -25,30 +32,21 @@ canvas {
     background-position: 50% 50%;
 }
 
-p {
+.container .text-center {
     color: white;
-    font-size: 15px;
-}
-
-ul {
-    text-align: center;
-}
-
-.container footer {
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    font-size: 60px;
+    position: relative;
+    margin-bottom: 35px;
 }
 
 .container .list-inline {
     position: absolute;
-    top: 40%;
+    top: 37%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
 
-.btn-social {
+.container .btn-social {
     display: inline-block;
     height: 100px;
     width: 100px;
@@ -59,17 +57,17 @@ ul {
     line-height: 90px;
 }
 
-.btn-outline {
+.container .btn-outline {
     color: white;
     font-size: 40px;
     border: solid 2px white;
     background: transparent;
     transition: all 0.3s ease-in-out;
-    margin-top: 50px;
+    margin-top: 3px;
 }
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline.active {
+.container .btn-outline:hover,
+.container .btn-outline:focus,
+.container .btn-outline.active {
     color: #c2ff00;
     background: rgba(194, 255, 0, 0.1);
     border: solid 2px #c2ff00;
