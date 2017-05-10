@@ -16,7 +16,7 @@ footer {
     color: white;
     font-size: 15px;
     position: absolute;
-    top: 95%;
+    top: 98%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
