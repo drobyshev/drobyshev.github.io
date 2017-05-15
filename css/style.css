@@ -5,7 +5,6 @@ body {
 
 canvas {
     display: block;
-    vertical-align: bottom;
 }
 
 ul {
@@ -15,8 +14,8 @@ ul {
 footer {
     color: white;
     font-size: 15px;
-    position: absolute;
-    top: 98%;
+    position: fixed;
+    top: 97%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
