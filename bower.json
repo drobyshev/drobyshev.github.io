@@ -5,13 +5,14 @@
     "Andrey Drobyshev <andrey.drobyschev@gmail.com>" 
   ], 
   "description": "My personal site with links to my profiles.", 
-  "main": "", 
+  "main": "index.html", 
   "license": "MIT", 
   "private": true, 
   "ignore": [ 
     "**/.*", 
     "node_modules", 
     "bower_components", 
+    "vendor", 
     "test", 
     "tests" 
   ], 
