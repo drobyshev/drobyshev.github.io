@@ -1,2 +1,2 @@
 ## drobyshev.github.io
-Personal web site with my notes and links to my profiles.
+My personal web site with links to my profiles.
