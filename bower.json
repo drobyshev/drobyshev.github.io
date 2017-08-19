@@ -1,23 +1,24 @@
-{ 
-  "name": "drobyshev.github.io", 
-  "homepage": "https://github.com/drobyshev/drobyshev.github.io", 
-  "authors": [ 
-    "Andrey Drobyshev <andrey.drobyschev@gmail.com>" 
-  ], 
-  "description": "My personal site with links to my profiles.", 
-  "main": "index.html", 
-  "license": "MIT", 
-  "private": true, 
-  "ignore": [ 
-    "**/.*", 
-    "node_modules", 
-    "bower_components", 
-    "test", 
-    "tests" 
-  ], 
-  "dependencies": { 
-    "bootstrap": "latest", 
-    "font-awesome": "latest", 
-    "jquery": "latest" 
-  } 
-} 
+{
+  "name": "drobyshev.github.io",
+  "homepage": "https://github.com/drobyshev/drobyshev.github.io",
+  "authors": [
+    "Andrey Drobyshev <andrey.drobyschev@gmail.com>"
+  ],
+  "description": "My personal site with links to my profiles.",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "particles.js": "^2.0.0"
+  }
+}
