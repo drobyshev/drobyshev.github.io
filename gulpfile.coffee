@@ -1,7 +1,6 @@
 gulp = require 'gulp'
 pug = require 'gulp-pug'
 less = require 'gulp-less'
-copy = require 'gulp-copy'
 coffee = require 'gulp-coffee'
 minifyJS = require 'gulp-minify'
 minifyCSS = require "gulp-clean-css"
