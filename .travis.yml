@@ -9,5 +9,5 @@ before_script:
   - bower install
 
 script:
-  - gulp --require coffee-script/register
+  - gulp --require coffee-script/register build
 

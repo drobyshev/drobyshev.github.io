@@ -22,9 +22,11 @@ gulp.task 'coffee', ->
     .pipe do minifyJS
     .pipe gulp.dest 'dist/js'
 
+gulp.task 'build', ['pug', 'less', 'coffee']
+
 gulp.task 'watch', ->
     gulp.watch 'src/pug/*.pug', ['pug']
     gulp.watch 'src/less/*.less', ['less']
     gulp.watch 'src/coffee/*.coffee', ['coffee']
 
-gulp.task 'default', ['pug', 'less', 'coffee', 'watch']
+gulp.task 'default', ['build', 'watch']
