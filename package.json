@@ -4,7 +4,6 @@
   "description": "My personal web site with links to my profiles.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
