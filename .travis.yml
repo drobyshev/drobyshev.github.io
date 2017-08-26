@@ -4,3 +4,7 @@ before_script:
   - npm install
   - npm install -g bower
   - bower install
+
+script:
+  - gulp --require coffee-script/register
+
