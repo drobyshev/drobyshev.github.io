@@ -3,8 +3,5 @@ language: node_js
 node_js:
   - "4.7.2"
 
-before_script:
-  - npm install
-
 script:
   - gulp --require coffee-script/register build
