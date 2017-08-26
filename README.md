@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/drobyshev/drobyshev.github.io.svg?branch=master)](https://travis-ci.org/drobyshev/drobyshev.github.io)
 
 # drobyshev.github.io
-Мой персональный сайт с сылками на мой профили в интернете.
+Мой персональный сайт.
 
 ## Установка
 Клонируем этот репозиторий и заходим в папку, где находиться проект
