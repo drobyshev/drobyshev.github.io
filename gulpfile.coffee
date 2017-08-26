@@ -5,6 +5,10 @@ coffee = require 'gulp-coffee'
 minifyJS = require 'gulp-minify'
 minifyCSS = require "gulp-clean-css"
 
+copy = (src, dest) ->
+    gulp.src src
+    .pipe gulp.dest dest
+
 gulp.task 'pug', ->
     gulp.src 'src/pug/*.pug'
     .pipe do pug
@@ -22,7 +26,14 @@ gulp.task 'coffee', ->
     .pipe do minifyJS
     .pipe gulp.dest 'dist/js'
 
-gulp.task 'build', ['pug', 'less', 'coffee']
+gulp.task 'vendor', ->
+    copy 'node_modules/bootstrap/dist/*/*.*', 'dist/vendor/bootstrap'
+    copy 'node_modules/jquery/dist/*.*', 'dist/vendor/jquery/js/'
+    copy 'node_modules/font-awesome/css/*.*', 'dist/vendor/font-awesome/css'
+    copy 'node_modules/font-awesome/fonts/*.*', 'dist/vendor/font-awesome/fonts'
+    copy 'node_modules/particles.js/*.js', 'dist/vendor/particles.js/js'
+
+gulp.task 'build', ['pug', 'less', 'coffee', 'vendor']
 
 gulp.task 'watch', ->
     gulp.watch 'src/pug/*.pug', ['pug']
