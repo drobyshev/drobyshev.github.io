@@ -8,7 +8,7 @@
 Клонируем этот репозиторий и заходим в папку, где находиться проект
 ```
 git clone https://github.com/drobyshev/drobyshev.github.io.git
-cd drobyshev.github.io.git
+cd drobyshev.github.io
 ```
 Устанавливаем из `npm` все необходимые зависимости
 ```
