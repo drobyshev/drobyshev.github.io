@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/drobyshev/drobyshev.github.io.svg?branch=master)](https://travis-ci.org/drobyshev/drobyshev.github.io)
+[![Build status](https://ci.appveyor.com/api/projects/status/ympe31wewpmoex70/branch/master?svg=true)](https://ci.appveyor.com/project/drobyshev/drobyshev-github-io)
 
 # drobyshev.github.io
 Мой персональный сайт.
@@ -34,4 +35,4 @@ alias gulp="gulp --require coffee-script/register"
 Для того что проект автоматически пересобирался, после того как произошли измениня в его исходниках, нужно выполнить команду `gulp` без параметров.
 
 ## Лицензия
-Проект создан под `MIT` лицензией - подробности смотреть здесь [LICENSE.md](https://github.com/drobyshev/drobyshev.github.io/blob/master/LICENSE).
+Проект создан под `MIT` лицензией - подробности можно посмотреть здесь [LICENSE.md](https://github.com/drobyshev/drobyshev.github.io/blob/master/LICENSE).
