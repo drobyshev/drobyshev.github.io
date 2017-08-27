@@ -10,4 +10,4 @@ install:
 build_script:
   - gulp --require coffee-script/register build
 
-build: off 
+build: on
