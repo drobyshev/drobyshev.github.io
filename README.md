@@ -13,6 +13,7 @@ cd drobyshev.github.io
 Устанавливаем из `npm` все необходимые зависимости
 ```
 npm install
+npm install gulp -g
 ```
 Собираем проект
 ```
