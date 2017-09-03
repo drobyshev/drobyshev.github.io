@@ -9,8 +9,8 @@ copy = (src, dest) ->
     gulp.src src
     .pipe gulp.dest dest
 
-gulp.task 'pug', ->
-    gulp.src 'src/pug/*.pug'
+gulp.task 'views', ->
+    gulp.src 'src/views/*.pug'
     .pipe do pug
     .pipe gulp.dest '.'
 
@@ -33,10 +33,10 @@ gulp.task 'vendor', ->
     copy 'node_modules/font-awesome/fonts/*.*', 'dist/vendor/font-awesome/fonts'
     copy 'node_modules/particles.js/*.js', 'dist/vendor/particles.js/js'
 
-gulp.task 'build', ['pug', 'less', 'coffee', 'vendor']
+gulp.task 'build', ['views', 'less', 'coffee', 'vendor']
 
 gulp.task 'watch', ->
-    gulp.watch 'src/pug/*.pug', ['pug']
+    gulp.watch 'src/views/*.pug', ['views']
     gulp.watch 'src/less/*.less', ['less']
     gulp.watch 'src/coffee/*.coffee', ['coffee']
 
