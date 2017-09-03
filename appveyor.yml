@@ -5,8 +5,8 @@ environment:
 
 install:
   - ps: Install-Product node $env:nodejs_version
-  - npm install
-  - npm install gulp -g
+  - npm i
+  - npm i -g gulp
 
 build_script:
   - gulp --require coffee-script/register build
