@@ -5,7 +5,7 @@
 Мой персональный сайт.
 
 ## Установка
-Клонируем этот репозиторий и заходим в папку, где находится проект
+Клонируем данный репозиторий и заходим в папку, где находится проект
 ```
 git clone https://github.com/drobyshev/drobyshev.github.io.git
 cd drobyshev.github.io
@@ -27,4 +27,4 @@ gulp --require coffee-script/register
 ```
 
 ## Лицензия
-Проект создан под `MIT` лицензией - подробности можно посмотреть здесь [LICENSE.md](https://github.com/drobyshev/drobyshev.github.io/blob/master/LICENSE).
+Данный проект создан под `MIT` лицензией - подробности можно посмотреть здесь [LICENSE.md](https://github.com/drobyshev/drobyshev.github.io/blob/master/LICENSE).
