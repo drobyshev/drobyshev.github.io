@@ -12,8 +12,8 @@ cd drobyshev.github.io
 ```
 Устанавливаем из `npm` все необходимые зависимости
 ```
-npm install
-npm install gulp -g
+npm i
+npm i -g gulp
 ```
 Собираем проект
 ```
