@@ -5,7 +5,7 @@ os:
   - osx
 
 node_js:
-  - "4.7.2"
+  - 4.7.2
 
 script:
   - gulp --require coffee-script/register build
