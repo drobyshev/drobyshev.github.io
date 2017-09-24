@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/drobyshev/drobyshev.github.io/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/drobyshev/drobyshev.github.io.svg?branch=master)](https://travis-ci.org/drobyshev/drobyshev.github.io)
 [![Build status](https://ci.appveyor.com/api/projects/status/ympe31wewpmoex70/branch/master?svg=true)](https://ci.appveyor.com/project/drobyshev/drobyshev-github-io)
 
