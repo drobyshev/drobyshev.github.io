@@ -8,8 +8,8 @@
 ## Установка
 Клонируем данный репозиторий и заходим в папку, где находится проект
 ```
-git clone https://github.com/drobyshev/drobyshev.github.io.git
-cd drobyshev.github.io
+git clone https://github.com/drobyshev/personal-site.git
+cd personal-site
 ```
 Устанавливаем из `npm` все необходимые зависимости
 ```
@@ -19,7 +19,7 @@ npm i
 ```
 gulp --require coffee-script/register build
 ```
-Готово, всё необходимое для работы сайта находится в папке `dist`.
+Готово, всё необходимое для работы сайта находится в папке `build`.
 
 Для того что проект автоматически пересобирался, после того как произошли измения в его исходниках, нужно выполнить команду
 ```
