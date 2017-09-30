@@ -64,5 +64,5 @@ typings/
 build/
 dist/
 
-# Deploy files
-.publish
+# Deploy directory
+.publish/
