@@ -1,8 +1,8 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/drobyshev/drobyshev.github.io/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/drobyshev/drobyshev.github.io.svg?branch=master)](https://travis-ci.org/drobyshev/drobyshev.github.io)
-[![Build status](https://ci.appveyor.com/api/projects/status/ympe31wewpmoex70/branch/master?svg=true)](https://ci.appveyor.com/project/drobyshev/drobyshev-github-io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/drobyshev/personal-site/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/drobyshev/personal-site.svg?branch=master)](https://travis-ci.org/drobyshev/drobyshev.github.io)
+[![Build status](https://ci.appveyor.com/api/projects/status/0cf58qtb34vwsvry?svg=true)](https://ci.appveyor.com/project/drobyshev/personal-site)
 
-# drobyshev.github.io
+# personal-site
 Мой персональный сайт.
 
 ## Установка
