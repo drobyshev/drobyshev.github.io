@@ -33,6 +33,7 @@ gulp.task 'vendor', ->
     copy 'node_modules/font-awesome/css/*.*', 'build/vendor/font-awesome/css'
     copy 'node_modules/font-awesome/fonts/*.*', 'build/vendor/font-awesome/fonts'
     copy 'node_modules/particles.js/*.js', 'build/vendor/particles.js/js'
+    copy 'CNAME', 'build'
 
 gulp.task 'build', ['pug', 'sass', 'coffee', 'vendor']
 
