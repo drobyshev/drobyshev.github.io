@@ -60,5 +60,9 @@ typings/
 # Dolphin file manager
 .directory
 
-# Build directory
+# Build directories
 build/
+dist/
+
+# Deploy files
+.publish
