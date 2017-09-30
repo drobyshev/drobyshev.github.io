@@ -59,3 +59,6 @@ typings/
 
 # Dolphin file manager
 .directory
+
+# Build directory
+build/
