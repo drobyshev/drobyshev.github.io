@@ -1,7 +1,11 @@
 version: "{build}"
 
+branches:
+  only:
+    - master
+    
 environment:
-  nodejs_version: "4.7.2"
+  nodejs_version: 4.7.2
 
 install:
   - ps: Install-Product node $env:nodejs_version
