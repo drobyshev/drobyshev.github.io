@@ -1,5 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/drobyshev/personal-site/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/drobyshev/personal-site.svg?branch=master)](https://travis-ci.org/drobyshev/drobyshev.github.io)
+[![Build Status](https://travis-ci.org/drobyshev/personal-site.svg?branch=master)](https://travis-ci.org/drobyshev/personal-site)
 [![Build status](https://ci.appveyor.com/api/projects/status/0cf58qtb34vwsvry?svg=true)](https://ci.appveyor.com/project/drobyshev/personal-site)
 
 # personal-site
