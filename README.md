@@ -11,20 +11,21 @@
 git clone https://github.com/drobyshev/personal-site.git
 cd personal-site
 ```
-Устанавливаем из `npm` все необходимые зависимости
+Устанавливаем из npm все необходимые зависимости
 ```
 npm i
+npm i -g gulp
 ```
 Собираем проект
 ```
-gulp --require coffee-script/register build
+gulp --require coffeescript/register build
 ```
-Готово, всё необходимое для работы сайта находится в папке `build`.
+Готово, всё необходимое для работы сайта находится в папке build.
 
 Для того что проект автоматически пересобирался, после того как произошли измения в его исходниках, нужно выполнить команду
 ```
-gulp --require coffee-script/register
+gulp --require coffeescript/register watch
 ```
 
 ## Лицензия
-Данный проект создан под `MIT` лицензией - подробности можно посмотреть здесь [LICENSE.md](https://github.com/drobyshev/drobyshev.github.io/blob/master/LICENSE).
+Данный проект создан под MIT лицензией - подробности можно посмотреть здесь [LICENSE.md](https://github.com/drobyshev/drobyshev.github.io/blob/master/LICENSE).
