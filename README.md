@@ -22,10 +22,10 @@ gulp --require coffeescript/register build
 ```
 Готово, всё необходимое для работы сайта находится в папке build.
 
-Для того что проект автоматически пересобирался, после того как произошли измения в его исходниках, нужно выполнить команду
+Для автоматической сборки проекта, после того как произошли измения в исходниках, нужно выполнить команду
 ```
 gulp --require coffeescript/register watch
 ```
 
 ## Лицензия
-Данный проект создан под MIT лицензией - подробности можно посмотреть здесь [LICENSE.md](https://github.com/drobyshev/drobyshev.github.io/blob/master/LICENSE).
+Проект создан под MIT лицензией - подробности можно посмотреть здесь [LICENSE.md](https://github.com/drobyshev/personal-site/blob/master/LICENSE).
